@@ -9,4 +9,7 @@ Recursos utilizados :
 	· Leaflet (Openstreet maps)
 	· Google Fonts
 	· Google+
+	
+	
+url : http://kthristov.github.io/X-Nav-Practica-Hoteles
 
