@@ -13,9 +13,9 @@ body {
 
 #map {
 	position: relative;
-	border: 2px solid #888888;
 	height: 500px ;
 	margin-top: 70px ;
+	border-radius: 5px; 
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
 }
 
@@ -95,24 +95,25 @@ body {
 	font-weight: bold ;
 }
 
-.hotel , .categoria{
+.hotel , .categoria , .input_form , .categorie_hotel{
+	background-color: #f8f8f8 ;
 	border-bottom: 2px solid #888888;
 	height: 42px ;
 	color: #333;
 	cursor:pointer;
 }
 
-#hotel_list>.active {
+#hotel_list>.active , #categories_index>.active , #categorie_hotels>.active, #categories_index>.active_hover{
 	background-color: #D2D2D2 ;
 	cursor:pointer;
 }
 
-#hotel_list>.hotel:hover {
+#hotel_list>.hotel:hover , #categories_index>.categoria:hover , #categorie_hotels>.categorie_hotel:hover{
 	background-color: #D2D2D2 ;
 	cursor:pointer;
 }
 
-.hotel>p , .categoria>p {
+.hotel>p , .categoria>p , .categorie_hotel>p {
 	height: 30px;
 	padding-top: 8px ;
 	padding-left: 10px ;
@@ -120,4 +121,23 @@ body {
 	font-family: Indie Flower ;
 	font-weight: bold ;
 	font-size: 18px ;
+}
+
+.input-group {
+	font-family: Indie Flower ;
+	width: 100% ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	margin-top: 4px ;
+}
+
+
+.button_focused {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 16px rgba(102,175,233,.6);
+}
+
+#hotel_info {
+	background-color: #f8f8f8 ;
+	width: 100% ;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4); 
 }

@@ -9,9 +9,10 @@
                 <!-- JQuery -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>">
 
-                <link href="index.css" rel="stylesheet">
-                <script src="index.js"></script>
-                
+                <!--JQueryUI -->
+                <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
                 <!-- Bootstrap -->
                 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -22,6 +23,13 @@
 
                 <!-- Google Fonts -->
                 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+                <!-- My Files -->
+                <link href="index.css" rel="stylesheet">
+                <script src="index.js"></script>
+
+                <!-- GitHub API-->                
+                <script src="github-api.js"></script>
 
         </head>
 
@@ -81,14 +89,26 @@
                         </nav>
 
                         <div id="map"></div>
-                        <div id="hotel_list" >
-                                <!-- divs with class="hotel" listed -->
+
+                        <div id="collections" >
+                                <div id="hotel_list" >
+                                        <!-- divs with class="hotel" listed -->
+                                </div>
+                                <div id="categories_index">
+                                        <div class="input_form">
+                                                <div class="input-group" >
+                                                        <input id="cat_input" type="text" class="form-control" placeholder="Nueva colección...">
+                                                        <span class="input-group-btn">
+                                                                <button id="cat_button" class="btn btn-default" type="button"><b>Crear</b></button>
+                                                        </span>
+                                                </div><!-- /input-group -->
+                                        </div>
+                                        <!-- divs with class="caregoria" listed -->
+                                </div>
                         </div>
-                        <div id="categories_index">
-                                <div class="categoria"><p>Barrio Salamanca</p></div>
-                                <div class="categoria"><p>Cercanos</p></div>
-                                <div class="categoria"><p>Casas</p></div>
-                                <div class="categoria"><p>Hoteles 5 estrellas</p></div>
+
+                        <div id="hotel_info">
+
                         </div>
                 </div>
 
