@@ -13,5 +13,8 @@ Recursos utilizados :
 	· GitHub API (versión usada en los ejemplos de clase).
 	· Google Fonts
 	· Google+
+	
+	
+url : http://kthristov.github.io/X-Nav-Practica-Hoteles
 
  
