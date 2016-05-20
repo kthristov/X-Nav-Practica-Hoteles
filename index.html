@@ -24,6 +24,9 @@
                 <!-- Google Fonts -->
                 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
+                <!-- Google+ API -->
+                <script src="https://apis.google.com/js/client.js"></script>
+
                 <!-- My Files -->
                 <link href="index.css" rel="stylesheet">
                 <script src="index.js"></script>
@@ -34,9 +37,9 @@
         </head>
 
         <body>
-                <nav class="navbar navbar-inverse navbar-fixed-top">
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
                         <div class="container">
-                                <div class="navbar-header">
+                                <div class="navbar-header " style='width: 100% '>
                                         <a class="navbar-brand">
                                                 Alojamientos en Madrid
                                         </a>
@@ -47,10 +50,6 @@
                 <nav class="navbar navbar-inverse navbar-fixed-bottom">
                         <div class="container">
                                 <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                        </button>
                                         <a class="navbar-brand">
                                                 Desarrollo de Aplicaciones Telemáticas
                                         </a>
@@ -91,28 +90,38 @@
                         <div id="map"></div>
 
                         <div id="collections" >
-                                <div id="hotel_list" >
-                                        <!-- divs with class="hotel" listed -->
-                                </div>
-                                <div id="categories_index">
-                                        <div class="input_form">
-                                                <div class="input-group" >
-                                                        <input id="cat_input" type="text" class="form-control" placeholder="Nueva colección...">
-                                                        <span class="input-group-btn">
-                                                                <button id="cat_button" class="btn btn-default" type="button"><b>Crear</b></button>
-                                                        </span>
-                                                </div><!-- /input-group -->
+                                <div class= "col-lg-6 col-md-6 col-xs-12" >
+                                        <div id="hotel_list" >
+                                                <!-- divs with class="hotel" listed -->
                                         </div>
-                                        <!-- divs with class="caregoria" listed -->
+                                </div>
+                                <div class= "col-lg-6 col-md-6 col-xs-12" >
+                                        <div id="categories_index">
+
+                                                <div class="input_form" id="token_form">
+                                                        <div class="input-group" >
+                                                                <input id="cat_git_input" type="text" class="form-control" placeholder="Inserte su token de Gihub...">
+                                                                <span class="input-group-btn">
+                                                                        <button id="cat_git_button" class="btn btn-default" type="button"><b>Enviar</b></button>
+                                                                </span>
+                                                        </div><!-- /input-group -->
+                                                </div>
+
+
+                                                <!-- divs with class="caregoria" listed -->
+                                        </div>
                                 </div>
                         </div>
 
                         <div id="hotel_info">
 
+                                <!-- <div id="title"></div> -->
+                                <!-- <div id="hotel_info_galery"></div> -->
+                                <!-- <div id="hotel_info_des"></div> -->
+                                <!-- <div id="hotel_info_user_form"></div> -->
+                                <!-- <div id="hotel_info_users_list"></div> -->
+
                         </div>
                 </div>
-
-
         </body>
-
 </html>
