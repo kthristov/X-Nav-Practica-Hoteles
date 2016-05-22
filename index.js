@@ -345,7 +345,6 @@ var alojados_click_from_map = function() {
 var insertar_categorias = function() {
 
 	for (cat in lista_categorias ){
-		console.log(lista_categorias[cat])
 		crear_categoria(null , cat, lista_categorias[cat] )
 	} 
 }
@@ -366,7 +365,7 @@ var crear_categoria = function(that,new_cat_name , hotels) {
 	if(hotels){
 		lista_categorias[new_cat_name] = hotels
 	} else {
-		lista_categorias = new Array()
+		lista_categorias[new_cat_name] = new Array()
 	}
 
 	// Programa los eventos de droppable para que puedan ser arrastrados elementos en la categoria
@@ -386,7 +385,6 @@ var crear_categoria = function(that,new_cat_name , hotels) {
 		}
 	// Programa el evento click sobre la categoria
 	}).click( function() {
-
 		if (last_cat_clicked)
 			last_cat_clicked.removeClass("active")
 		$(this).addClass("active")
