@@ -1,12 +1,15 @@
 # X-Nav-Practica-Hoteles
 Repositorio para la práctica final de DAT/AT. Curso 2015-2016
 
-video : https://youtu.be/c1eP5MXP6_Y
-url proyecto: http://kthristov.github.io/X-Nav-Practica-Hoteles
+<p>video : https://youtu.be/c1eP5MXP6_Y <p>
 
-nombre y titulación :Kaloyan Todorov Hristov GITT
-cuenta laboratorio : ktodorov
-cuenta github: kthristov
+<p>url proyecto: http://kthristov.github.io/X-Nav-Practica-Hoteles<p>
+
+<p>nombre y titulación :Kaloyan Todorov Hristov GITT<p>
+<p>cuenta laboratorio : ktodorov<p>
+<p>cuenta github: kthristov<p>
+
+
 
 Recursos utilizados :
 
@@ -19,5 +22,3 @@ Recursos utilizados :
 	· Google Fonts
 	· Google+
 
-
- 
