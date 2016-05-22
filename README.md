@@ -3,11 +3,11 @@ Repositorio para la práctica final de DAT/AT. Curso 2015-2016
 
 <p>video : https://youtu.be/c1eP5MXP6_Y <p>
 
-<p>url proyecto: http://kthristov.github.io/X-Nav-Practica-Hoteles<p>
+<p>url proyecto en gh-pages: http://kthristov.github.io/X-Nav-Practica-Hoteles<p>
 
-<p>nombre y titulación :Kaloyan Todorov Hristov GITT<p>
-<p>cuenta laboratorio : ktodorov<p>
-<p>cuenta github: kthristov<p>
+<p>nombre y titulación : <b> Kaloyan Todorov Hristov GITT</b><p>
+<p>cuenta laboratorio : <b>ktodorov</b><p>
+<p>cuenta github: <b> kthristov</b><p>
 
 
 
